@@ -6,6 +6,7 @@ import selectn from "selectn";
 import { DefaultLabel } from "./Label";
 
 const DEFAULT_OPTIONS = {
+  isLoading: false,
   required: false,
   labelKey: "name",
   minLength: 3,
